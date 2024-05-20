@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+}
+nav{
+  background-color: purple;
+  color: white;
+  padding: 20px;
+}
+nav a{
+  text-decoration: none;
+  padding: 30px;
+  color: white;
+  font-weight: bold;
+}
+nav a:active{
+  color: yellow;
+}
+.home{
+  padding: 30px;
+  font-size: 30px;
+  color: purple;
+  font-weight: bolder;
+}
+.about{
+  text-align: justify;
+  font-size: 15pt;
+  color: purple;
+  padding: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.profile{
+  padding: 20px;
+}
+.profile h1,.profile h2{
+  color: purple;
+
+}
+.profile::before{
+  content: url(https://avatars.githubusercontent.com/u/48351312?v=4);
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
